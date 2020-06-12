@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Character Creater</title>
+</head>
+<body>
+  <header class="header">
+    <h1 class="header-title">Character Creater</h1>
+    <nav class="navigation-menu">
+      <ul class="nav-ul">
+        <a href="login.html"><li class="nav-li">Log-in</li></a>
+        <!-- Log in will only be available if someone is not logged in already -->
+        <li class="nav-li"><a href="createdcharacter.html">Radomize Character</a></li>
+        <li class="nav-li"><a href="characterlist.html">Character List</a></li>
+        <!-- Character List will be only available for those logged -->
+        <li class="nav-li"><a href="index.html">Log-out</a></li>
+        <!-- Log out will only be available if someone is logged in -->
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main-front-page">
+    <p>Click on a character below to see more information</p>
+    <!-- this section is only shown for those who are logged in and most recent charas -->
+    <section class="character-list">
+      <a href="characterID.html">
+        <div class="character-snapshot">
+          <p>[name]
+          <br>[main trait]
+          <br>[event]
+          </p>
+        </div>
+      </a>
+    </section>
+
+    <section class="character-list">
+      <a href="characterID.html">
+        <div class="character-snapshot">
+          <p>[name]
+          <br>[main trait]
+          <br>[event]
+          </p>
+        </div>
+      </a>
+    </section>
+
+    <section class="character-list">
+      <a href="characterID.html">
+        <div class="character-snapshot">
+          <p>[name]
+          <br>[main trait]
+          <br>[event]
+          </p>
+        </div>
+      </a>
+    </section>
+
+    <a href="create1.html"><button class="create-character-button">Create Character</button></a>
+  </main>
+</body>
+</html>

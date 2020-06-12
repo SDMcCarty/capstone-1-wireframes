@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Character Creater: Sexual Orientation and Personality</title>
+</head>
+<body>
+  <header>
+    <a href="index.html"><h1>Character Creater</h1></a>
+  </header>
+  <p>From below, please select and option or leave blank for a randomized trait to be assigned</p>
+
+  <form>
+    <fieldset>
+      <legend>Sexual Orientation and Personality</legend>
+      <label for="sexualorientation">Sexual Orientation</label>
+      <select id="sexualorientation">
+        <option value="random">----</option>
+        <option value="straight">Straight</option>
+        <option value="gay">Gay</option>
+        <option value="pansexual">Pansexual</option>
+        <option value="demisexual">Demisexual</option>
+        <option value="asexual">Asexual</option>
+        <option value="bisexual">Bisexual</option>
+      </select>
+
+      <label for="maintrait">Main Trait</label>
+      <select id="maintrait">
+        <option value="random">----</option>
+        <option value="brave">Brave</option>
+        <option value="smart">Smart</option>
+        <option value="cowardly">Cowardly</option>
+        <option value="dumb">Dumb</option>
+        <option value="funny">Funny</option>
+        <option value="adventerous">Adventerous</option>
+        <!-- The rest will be autofilled in from the database -->
+      </select>
+
+      <label for="secondarytrait">Secondary Trait</label>
+      <select id="secondarytrait">
+        <option value="random">----</option>
+        <option value="brave">Brave</option>
+        <option value="smart">Smart</option>
+        <option value="cowardly">Cowardly</option>
+        <option value="dumb">Dumb</option>
+        <option value="funny">Funny</option>
+        <option value="adventerous">Adventerous</option>
+        <!-- The rest will be autofilled in from the database -->
+      </select>
+
+      <label for="quirks">Quirks</label>
+      <select id="quirks">
+        <option value="random">----</option>
+        <option value="crieswhenlaughing">Cries when laughing</option>
+        <option value="snorts">Snorts</option>
+        <option value="chewsgumonpensetc">Chews gum/on pens/etc</option>
+        <!-- the rest will be autofilled iin from the database -->
+      </select>
+
+      <label for="fears">Fears</label>
+      <select id="fears">
+        <option value="random">----</option>
+        <option value="water">Water</option>
+        <option value="dogs">Dogs</option>
+        <option value="cats">Cats</option>
+        <option value="plants">Plants</option>
+        <!-- Plus more from database -->
+      </select>
+
+    </fieldset>
+    
+    <a href="create2.html"><button type="button"> << Back</button></a>
+    <a href="create4.html"><button type="button">Next: Other >></button></a>
+    <a class="cancel-button" href="index.html"><button type="button">Cancel</button></a>
+    <br>Warning: cancelling will lose all data
+  </form>
+</body>
+</html>
+
+<!--
+
+    <label for=""></label>
+    <select id="">
+      <option value=""></option>
+    </select>
+
+-->
